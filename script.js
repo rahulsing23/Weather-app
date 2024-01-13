@@ -35,6 +35,9 @@ async function weatherfunction(city){
     {
         weatherIcon.src = "images/mist.png"
     }
+    else{
+        weatherIcon.src = "images/snow.png"
+    }
 
 }
 searchbtn.addEventListener('click', () =>{
